@@ -1,0 +1,29 @@
+{
+  "name": "study-app",
+  "version": "1.0.0",
+  "description": "Interactive web app for CIR 106 and 108. Units under CIT course offered at Maseno University",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required for static HTML'",
+    "test": "echo 'No test suite configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayndavis/study-app.git"
+  },
+  "keywords": [
+    "study",
+    "education",
+    "maseno-university"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayndavis/study-app/issues"
+  },
+  "homepage": "https://github.com/mayndavis/study-app#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
